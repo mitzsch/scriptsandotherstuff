@@ -23,4 +23,4 @@ function control_audio()
 	end
 end
 
-mp.register_event("seek", control_audio)
+mp.register_event("playback-restart", control_audio)
